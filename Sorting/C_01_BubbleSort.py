@@ -56,7 +56,13 @@ def bubbleSortOptimized(data: List[int]) -> List[int]:
 
 
 if __name__=="__main__":
-    data = [3,1,5,4,2,0,8,6,7,13,16,25,40]
+    data = [3,1,5,4,2,0,8,6,7,13,16,25,40,13]
+    """
+        In above array there is multiple 13 which is at index 9, and 13
+        so in sorted array order of 13 will be maintained like above means
+        13 at index 9 will be before of 13 of index 13 this concept is known as stability.
+        that's why bubble sort is stable it follows the stability rule.
+    """
     ans = bubbleSort(data)
     print(bubbleSortOptimized(data))
     print(ans)
