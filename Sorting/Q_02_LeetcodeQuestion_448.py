@@ -10,9 +10,7 @@
 
     Link: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/
 """
-from multiprocessing.connection import answer_challenge
 
-from wheel.macosx_libfile import swap32
 
 """
     Logic Explanation: Cyclic Sort Approach
